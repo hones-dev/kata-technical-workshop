@@ -1,4 +1,4 @@
-package fr.codeworks.bbl
+package fr.codeworks.bbl.codeTest
 
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
