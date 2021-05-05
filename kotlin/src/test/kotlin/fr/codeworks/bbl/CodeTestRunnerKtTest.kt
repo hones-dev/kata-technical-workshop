@@ -29,7 +29,7 @@ internal class CodeTestRunnerKtTest {
         val lead = BufferedReader(FileReader("$filePath/lead.txt"))
         val gold = BufferedReader(FileReader("$filePath/gold.txt"))
 
-        CodeTestRunner.main()
+        main()
 
         var line: String?
         while (gold.readLine().also { line = it } != null) {
