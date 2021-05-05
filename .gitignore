@@ -10,6 +10,8 @@
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
+*.iml
+
 # Package Files #
 *.jar
 *.war
@@ -25,3 +27,18 @@ hs_err_pid*
 /kotlin/build/
 .idea/
 /javascript/node_modules/
+
+### Node ###
+# Logs
+logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# Temporary folders
+tmp/
+temp/
