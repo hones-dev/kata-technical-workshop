@@ -5,7 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "start": "node --experimental-json-modules src/index.js",
-    "test": "jest --watch"
+    "test": "jest --watch",
+    "approvalTest": "mocha --watch src/approvalTests/"
   },
   "keywords": [
     "kata",
@@ -16,7 +17,10 @@
   "author": "Romy Alula",
   "license": "ISC",
   "devDependencies": {
-    "jest": "26.6.3"
+    "approvals": "^6.2.2",
+    "jest": "26.6.3",
+    "mocha": "^10.2.0",
+    "sinon": "^17.0.0"
   },
   "dependencies": {
     "prompt-sync": "4.2.0"
