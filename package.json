@@ -4,7 +4,8 @@
   "description": "",
   "main": "src/taxCalculator",
   "scripts": {
-    "approvalTest": "mocha --watch src/approvalTests/"
+    "approvalTest": "mocha --watch src/approvalTests/",
+    "approvalTestCoverage": "nyc --reporter=lcov mocha src/approvalTests/"
   },
   "keywords": [
     "kata",
@@ -18,6 +19,7 @@
     "approvals": "^6.2.2",
     "jest": "26.6.3",
     "mocha": "^10.2.0",
+    "nyc": "^15.1.0",
     "sinon": "^17.0.0"
   },
   "dependencies": {
